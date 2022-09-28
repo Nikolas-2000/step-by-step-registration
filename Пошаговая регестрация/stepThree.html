@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <title></title>
+    <link href="style/stepThree.css" rel="stylesheet">
+</head>
+
+<body style="background-color:#FAEBD7">
+    <din class="window">
+        <h3>Введите почту и дату рождения</h3>
+
+        <label>Почта:</label>
+        <div style="display: flex;opacity: 0.5;">
+            <input type="email" id="inputOne" style="border:2px dashed red">
+            <div class="mail" id="mail">!
+                <div id="infoMail" class="infoMail"></div>
+            </div>
+        </div>
+
+        <label>Дата рождения:</label>
+        <div style="display: flex;opacity: 0.5;">
+            <input type="date" min="1000-01-01" max="9999.12.30" id="inputTwo" style="border:2px dashed red">
+            <div class="birthday" id="birthday">!
+                <div id="infoMail2" class="infoMail2"></div>
+            </div>
+        </div>
+
+        <div style="display:flex;margin-top: 10%;width: 100%;justify-content:center;">
+            <button id="buttonBack" class="buttonBack">Назад</button>
+            <button id="buttonNext" class="buttonNext" disabled>Далее</button>
+        </div>
+        
+    </div>
+</body>
+
+</html>
+
+<script src="/script/stepThree.js"></script>

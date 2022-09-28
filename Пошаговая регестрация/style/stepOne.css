@@ -1,0 +1,63 @@
+.window {
+    background-color: #F8F4FF;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.buttonNext {
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-left: 70%;
+}
+
+.helpName{
+    display: none;
+}
+
+.helpNameBorder{
+    display: initial;
+    border:2px dashed red;
+    border-radius:2px;
+    margin-left: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.helpNameBorder:hover .helpName{
+    display: initial;
+    background-color: rgb(255, 237, 237);
+    border:1px solid black;
+    border-radius:10px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.helpName1{
+    display: none;
+}
+
+.helpNameBorder1{
+    display: initial;
+    border:2px dashed red;
+    border-radius:2px;
+    margin-left: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.helpNameBorder1:hover .helpName1{
+    display: initial;
+    background-color: rgb(255, 237, 237);
+    border:1px solid black;
+    border-radius:10px;
+    position: absolute;
+    margin-left: 10px;
+}

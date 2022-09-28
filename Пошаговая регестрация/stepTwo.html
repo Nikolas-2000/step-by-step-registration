@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <title></title>
+    <link href="style/stepTwo.css" rel="stylesheet">
+</head>
+
+<body style="background-color:#FAEBD7">
+    <din class="window">
+        <h3>Введите пароль</h3>
+
+        <label>Пароль:</label>
+        <div style="display: flex;opacity: 0.5;">
+            <input type="password" id="inputOne" style="border:2px dashed red">
+            <div class="passwordOne" id="passwordOne">!
+                <div id="infoPas" class="infoPas"></div>
+            </div>
+        </div>
+
+        <label>Подтверждение пороля:</label>
+        <div style="display: flex;opacity: 0.5;">
+            <input type="password" id="inputTwo" style="border:2px dashed red">
+            <div class="passwordTwo" id="passwordTwo">!
+                <div id="infoPas2" class="infoPas2"></div>
+            </div>
+        </div>
+
+        <label id="checkbox">
+            <input type="checkbox" id="password-checkbox"> Показать пароли
+        </label>
+
+        <div style="display:flex;margin-top: 10%;width: 100%;justify-content:center;">
+            <button id="buttonBack" class="buttonBack">Назад</button>
+            <button id="buttonNext" class="buttonNext" disabled>Далее</button>
+        </div>
+        
+    </div>
+</body>
+
+</html>
+
+<script src="/script/stepTwo.js"></script>
